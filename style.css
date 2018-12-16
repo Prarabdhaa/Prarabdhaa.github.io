@@ -27,7 +27,14 @@ font-family: 'Amatic SC', cursive;
 #major-mono{
   font-family: 'Major Mono Display', monospace;
 }
+#lato{
+  font-family: 'Lato', sans-serif;
 
+}
+#playfair{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px
+}
 
  .bg {
    /* background-image:url("images/gif1.gif");
