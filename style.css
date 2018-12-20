@@ -13,35 +13,9 @@ header,
     -o-background-size: cover;
     background-size: cover;
 }
-
-#intro_head{
-font-family: 'Amatic SC', cursive;
-}
-#intro_content{
-  font-family: 'Indie Flower', cursive;
-  font-size: 25px;
-}
-#gloria{
-  font-family: 'Gloria Hallelujah', cursive;
-}
-#major-mono{
-  font-family: 'Major Mono Display', monospace;
-}
-#lato{
-  font-family: 'Lato', sans-serif;
-
-}
-#playfair{
-  font-family: 'Playfair Display', serif;
-  font-size: 20px
 }
 
  .bg {
-   /* background-image:url("images/gif1.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
-    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,13 +26,39 @@ font-family: 'Amatic SC', cursive;
 .top-nav-collapse {
     background-color: black;
   }
-  @media (max-width: 768px) {
+
+@media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
       background-color: black;
     }
   }
-  @media (min-width: 800px) and (max-width: 850px) {
+
+@media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
       background-color: black;
     }
   }
+
+#intro_head{
+font-family: 'Amatic SC', cursive;
+}
+
+#intro_content{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+
+#gloria{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+#major-mono{
+  font-family: 'Major Mono Display', monospace;
+}
+
+#lato{
+  font-family: 'Lato', sans-serif;
+}
+
+#playfair{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px
